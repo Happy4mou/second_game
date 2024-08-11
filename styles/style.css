@@ -1,0 +1,10 @@
+body {
+    background-color: #000000;
+  }
+
+  #mazeCanvas {
+    border: 3px solid #ffffff;
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+  }
