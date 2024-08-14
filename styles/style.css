@@ -2,9 +2,20 @@ body {
     background-color: #000000;
   }
 
-  #mazeCanvas {
-    border: 3px solid #ffffff;
-    position: absolute;
-    top: 30vh;
-    left: 35vw;
+  .score{
+    width: 300px;
+    height: 40 px;
+    background-color: #f01d1d;
   }
+
+  #mazeCanvas {
+    /* border: 3px solid #ffffff; */
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    width: 50vw;
+    height: 25vw;
+    transform: translate(-50%,-50%);
+  }
+
+  
